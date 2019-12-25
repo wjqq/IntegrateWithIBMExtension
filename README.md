@@ -23,3 +23,5 @@ func (cc *Chaincode) history(stub shim.ChaincodeStubInterface, args []string) sc
 [12/25/2019 5:39:19 PM] [SUCCESS] Returned value from history: [{"TxId":"4ce8716a0b851647c42b7aec23fa0e23d3c748be3f9694965900091ba72cc0c9", "Value":200},{"TxId":"9e61e302ecc63646e810c3fa11c95e484877410873780a4226266dae55c129e9", "Value":254}]
 
 
+***If you want to interact with the Network built with the Plugin, please refer to the https://github.com/wjqq/hfclient project, see file query_plugin.js how to connect it. ***
+
